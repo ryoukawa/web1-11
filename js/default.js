@@ -12,5 +12,5 @@ if(answer === number){
 }else{
   message = '0～10 の数字を入力してください';
 }
-                        
 
+document.getElementById('choice').textContent = message;
