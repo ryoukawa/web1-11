@@ -7,7 +7,7 @@ var answer = parseInt(window.prompt('数あてゲーム。0～10の数字を入�
 var message;
 if(answer === number){
   message =　'当たり';
-  brake;
+  break;
 }
   else if (answer < number){
 result = window.confirm('残念！もっと大きい数字です。このまま続けますか？');
@@ -18,7 +18,7 @@ result = window.confirm('残念！もっと大きい数字です。このまま�
 }
   if (result===true)
     result=0;
-  else　brake;
+  else　break;
   
 }
 document.getElementById('choice').textContent = message;
