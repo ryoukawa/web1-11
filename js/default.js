@@ -1,5 +1,5 @@
 
-var namber = Math.floor(Math.random()*10);
+var number = Math.floor(Math.random()*10);
 var answer = parseInt(window.prompt('数あてゲーム。0～10の数字を入力してください！'));
 
 var message;
